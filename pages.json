@@ -1,0 +1,47 @@
+{
+  "pages": [
+    {
+      "path": "pages/todoList/index",
+      "style": {
+        "navigationBarTitleText": "Todo list"
+      }
+    }, 
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "接口"
+      }
+    }, 
+    {
+      "path": "pages/API/index",
+      "style": {
+        "navigationBarTitleText": "view"
+      }
+    }
+    ],
+  "globalStyle": {
+    "navigationBarTitleText": "uniapp",
+    "navigationBarBackgroundColor": "#4870ff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/todoList/index",
+      "iconPath": "static/user.png",
+      "selectedIconPath":  "static/user.png",
+      "text": "todoList",
+	  "query": "name"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "static/video.png",
+      "selectedIconPath": "static/video.png",
+      "text": "接口"
+    }]
+  },
+  "condition": {
+    "current": 1
+  }
+}

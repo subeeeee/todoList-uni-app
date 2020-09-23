@@ -70,14 +70,15 @@
 <style lang="scss" scoped>
   .todo-list-title{
     .add-todo-desc{
-      font-size: 30rpx;
+      font-size: $uni-font-size-base;
       color: #666666;
       padding: 5rpx 0;
     }
     .add-todo-warp{
       display: flex;
-      font-size: 40rpx;
+      font-size: $uni-font-size-lg;
       line-height: 70rpx;
+      margin-bottom: 10rpx;
       .input-text{
         flex: 1;
         padding: 10rpx;
@@ -87,12 +88,15 @@
         border: 1rpx solid #ccc;
         box-shadow:  0 0 5rpx 5rpx #E5E5E5;   
         border-radius: 15rpx;
+        margin-right: 10rpx;
       }
       .add-todo-button{
         height: 70rpx;
-        width: 150rpx;
+        width: 100rpx;
+        border-radius: 10rpx;
+        box-shadow: 0 0 5rpx $uni-color-primary;
         text-align: center;
-        background-color: #0c70ff;
+        background-color: $uni-color-primary;
         color: #f8f8f8;
       }
     }
